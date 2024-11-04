@@ -59,12 +59,13 @@ h1 {
     padding: 10px;
 }
 
-ul {
+ol {
     margin: auto;
     columns: 2;
     max-width: 600px;
     padding-bottom: 100px;
     padding-top: 20px;
+    padding-right: 20px;
 }
 
 li {
@@ -79,4 +80,6 @@ li > h2 {
 
 li > p {
     font-size: 1em;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
 }
