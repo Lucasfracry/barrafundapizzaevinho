@@ -73,6 +73,9 @@ ul {
 
 li {
     padding: 6px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 8px;
 }
 
 li > h2 {
