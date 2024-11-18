@@ -59,34 +59,30 @@ nav > a:hover {
 h1 {
     text-align: center;
     margin: 0px;
-    padding: 10px;
+    padding: 20px;
 }
 
-ul {
-    margin: auto;
-    columns: 2;
-    max-width: 600px;
-    padding-bottom: 80px;
-    padding-top: 20px;
-    padding-right: 20px;
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-li {
-    padding: 6px;
-    background-color: white;
-    margin: 5px;
-    border-radius: 8px;
+.itens {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px;
+    min-height: 80px;
+    min-width: 300px;
+    margin-bottom: 10px;
 }
 
-li > h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1em;
-    font-weight: bold;
+.itens > h2 {
+    font-size: 1.3em;
+    padding-left: 5px;
 }
 
-li > p {
-    font-size: 1em;
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    display: inline-block;
+.itens > p {
+    padding: 5px;
 }
